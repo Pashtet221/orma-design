@@ -212,3 +212,60 @@ body.orma-site{margin:0;background:#fff;color:#171717;font-family:Inter,Arial,sa
  .orma-layout [data-node="23:182"]{min-height:calc(3036 * var(--u))}
  .orma-layout.orma-filtered [data-node="23:182"]{min-height:0}
 }
+
+/* A restrained motion language shared by interactive elements. */
+:root{--orma-ease:cubic-bezier(.22,1,.36,1)}
+.orma-layout :focus-visible{outline:2px solid #57534e;outline-offset:5px;border-radius:4px}
+.orma-layout a,.orma-layout button{transition:background-color .3s ease,color .3s ease,box-shadow .3s ease,transform .4s var(--orma-ease)}
+.orma-layout a:hover{text-decoration:none}
+.orma-menu-items a:hover,.orma-footer a:hover{opacity:.65}
+.orma-layout .orma-contact-form button:hover{background:#34312e;transform:translateY(-2px);box-shadow:0 8px 20px #17171718}
+.orma-contacts .orma-layout-187{border:0;background:transparent;overflow:visible}
+.orma-contacts .orma-layout-187 p{transition:transform .4s var(--orma-ease)}
+.orma-contacts .orma-layout-187:hover p{transform:translateX(8px)}
+.orma-contacts .orma-layout-187 img{transition:transform .4s var(--orma-ease)}
+.orma-contacts .orma-layout-187:hover img{transform:rotate(-8deg)}
+.orma-layout .orma-floating-field{position:relative;overflow:visible;height:auto;gap:0;isolation:isolate}
+.orma-layout .orma-floating-field .orma-label{position:absolute;z-index:1;top:20px;left:18px;width:calc(100% - 36px);height:auto;line-height:1.4;font-size:16px;color:#777;pointer-events:none;transform-origin:left top;transition:transform .35s var(--orma-ease),color .3s ease}
+.orma-layout .orma-floating-field .orma-field{margin:0;width:100%;height:66px;padding:29px 18px 10px;border:1px solid transparent;border-radius:10px;background:#fff;font-size:16px;transition:border-color .3s ease,box-shadow .3s ease;outline:none}
+.orma-layout .orma-floating-field textarea.orma-field{height:146px;min-height:146px}
+.orma-floating-field:focus-within .orma-label,.orma-floating-field:has(.orma-field:not(:placeholder-shown)) .orma-label{transform:translateY(-12px) scale(.74);color:#504a43}
+.orma-layout .orma-floating-field .orma-field:focus{border-color:#a59c91;box-shadow:0 0 0 3px #a59c911c}
+.orma-layout .orma-layout-194{height:auto;overflow:visible}
+.orma-layout .orma-portfolio-tab{transition:flex .75s var(--orma-ease);color:#fff;background:#333}
+.orma-portfolio-image{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transform:scale(1.08);transition:transform 1s var(--orma-ease);pointer-events:none}
+.orma-portfolio-tab::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,#0004,transparent 35%,#000b);pointer-events:none}
+.orma-portfolio-tab[aria-pressed=true] .orma-portfolio-image{transform:scale(1)}
+.orma-portfolio-tab>p,.orma-portfolio-tab>span{z-index:1;color:inherit}
+.orma-layout .orma-portfolio-tab .orma-portfolio-title,.orma-layout .orma-portfolio-tab .orma-portfolio-description{display:block;opacity:0;transform:translateY(12px);white-space:nowrap;transition:opacity .25s ease,transform .5s var(--orma-ease)}
+.orma-layout .orma-portfolio-tab[aria-pressed=true] :is(.orma-portfolio-title,.orma-portfolio-description){opacity:1;transform:none;transition-delay:.15s}
+.orma-layout .orma-portfolio-tab .orma-portfolio-side{display:block;opacity:1;transition:opacity .2s ease}
+.orma-layout .orma-portfolio-tab[aria-pressed=true] .orma-portfolio-side{opacity:0}
+.orma-layout .orma-layout-270{overflow:visible}
+.orma-layout .orma-layout-271{transition:background .45s ease,border-color .45s ease,transform .5s var(--orma-ease),box-shadow .5s ease}
+.orma-layout .orma-layout-271:hover,.orma-layout .orma-layout-271:focus-within{background:#24221f;border-color:#857869;transform:translateY(-5px);box-shadow:0 16px 40px #0003}
+.orma-layout-271 .orma-layout-274{transition:transform .45s var(--orma-ease)}
+.orma-layout-271:hover .orma-layout-274{transform:translate(3px,-3px) rotate(-8deg)}
+.orma-faq[open] summary::after,.orma-faq summary::after{content:none}
+.orma-faq summary::marker,.orma-service-faq summary::marker{content:''}
+.orma-faq .orma-faq-icon{width:18px;height:18px;position:relative}
+.orma-faq .orma-faq-icon img{display:none}
+.orma-faq-icon::before,.orma-faq-icon::after{content:'';position:absolute;left:2px;top:8px;width:14px;height:1.5px;background:currentColor;transition:transform .35s var(--orma-ease)}
+.orma-faq-icon::after{transform:rotate(90deg)}
+.orma-faq[open] .orma-faq-icon::after{transform:rotate(0)}
+.orma-layout :is(.orma-faq,.orma-service-faq){height:auto;box-sizing:border-box}
+.orma-faq summary:hover,.orma-service-faq summary:hover{color:#80705f}
+@media(max-width:580px){
+ .orma-layout .orma-portfolio{height:320px;gap:6px}
+ .orma-layout .orma-portfolio-tab[aria-pressed=true]{flex:7}
+ .orma-portfolio-side{left:6px;font-size:11px}
+ .orma-portfolio-tab>p:first-of-type{left:6px;font-size:10px}
+ .orma-layout .orma-portfolio-title{font-size:20px}
+ .orma-layout .orma-portfolio-description{font-size:10px}
+}
+@media(prefers-reduced-motion:reduce){
+ html{scroll-behavior:auto}
+ .orma-layout *,.orma-layout *::before,.orma-layout *::after{transition:none!important;animation:none!important}
+}
+.orma-faq[open] .orma-faq-icon img,.orma-faq .orma-faq-icon img{display:none}
+@media(max-width:900px){.orma-home{overflow-x:clip}}

@@ -61,22 +61,22 @@
         <p class="orma-layout-76">или выберите удобный мессенджер слева.</p>
       </div>
       <div class="orma-layout-194 orma-row orma-width orma-height" data-node="83:322">
-        <div class="orma-layout-195 orma-width orma-height" data-node="83:323">
+        <div class="orma-layout-195 orma-floating-field orma-width orma-height" data-node="83:323">
           <label class="orma-layout-196 orma-width orma-height orma-label" data-node="83:324" for="orma-name">Ваше имя *</label>
-<input type="text" id="orma-name" class="orma-layout-197 orma-width orma-height orma-field" name="name" placeholder="Как вас зовут?" maxlength="180" required autocomplete="name">
+<input type="text" id="orma-name" class="orma-layout-197 orma-width orma-height orma-field" name="name" placeholder=" " maxlength="180" required autocomplete="name">
         </div>
-        <div class="orma-layout-195 orma-width orma-height" data-node="83:327">
+        <div class="orma-layout-195 orma-floating-field orma-width orma-height" data-node="83:327">
           <label class="orma-layout-196 orma-width orma-height orma-label" data-node="83:328" for="orma-contact">Почта или Telegram *</label>
-<input type="text" id="orma-contact" class="orma-layout-197 orma-width orma-height orma-field" name="contact" placeholder="Для ответа на ваше сообщение" maxlength="180" required>
+<input type="text" id="orma-contact" class="orma-layout-197 orma-width orma-height orma-field" name="contact" placeholder=" " maxlength="180" required>
         </div>
       </div>
-      <div class="orma-layout-199 orma-width orma-height" data-node="83:331">
+      <div class="orma-layout-199 orma-floating-field orma-width orma-height" data-node="83:331">
         <label class="orma-layout-200 orma-width orma-height orma-label" data-node="83:332" for="orma-topic">Тема обращения</label>
-<input type="text" id="orma-topic" class="orma-layout-201 orma-width orma-height orma-field" name="topic" placeholder="Дизайн сайта, редизайн, интернет-магазин…" maxlength="180">
+<input type="text" id="orma-topic" class="orma-layout-201 orma-width orma-height orma-field" name="topic" placeholder=" " maxlength="180">
       </div>
-      <div class="orma-layout-203 orma-width orma-height" data-node="83:335">
+      <div class="orma-layout-203 orma-floating-field orma-width orma-height" data-node="83:335">
         <label class="orma-layout-200 orma-width orma-height orma-label" data-node="83:336" for="orma-message">Ваше сообщение *</label>
-<textarea id="orma-message" class="orma-layout-204 orma-width orma-height orma-field" name="message" placeholder="Расскажите о задаче и пожеланиях." maxlength="5000" required></textarea>
+<textarea id="orma-message" class="orma-layout-204 orma-width orma-height orma-field" name="message" placeholder=" " maxlength="5000" required></textarea>
       </div>
       <button class="orma-layout-206 orma-row orma-width orma-height" data-node="83:339" type="submit">        <p class="orma-layout-207 orma-width orma-height" data-node="83:340">Отправить сообщение ↗</p></button>
 <p class="orma-form-note">Отправляя сообщение, вы соглашаетесь с <?php if (get_privacy_policy_url()) : ?><a href="<?php echo esc_url(get_privacy_policy_url()); ?>">политикой конфиденциальности</a><?php else : ?>политикой конфиденциальности<?php endif; ?>.</p>

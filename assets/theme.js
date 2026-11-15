@@ -31,9 +31,47 @@ document.querySelectorAll('.orma-filters').forEach((filters) => {
     });
 });
 document.querySelectorAll('.orma-portfolio').forEach((portfolio) => {
-    const cards = [...portfolio.querySelectorAll('button')];
-    portfolio.addEventListener('click', (event) => {
-        const card = event.target.closest('button');
-        if (card) cards.forEach((item) => item.setAttribute('aria-pressed', String(item === card)));
+    const cards = [...portfolio.querySelectorAll('.orma-portfolio-tab')];
+    const activate = (card) => cards.forEach((item) => item.setAttribute('aria-pressed', String(item === card)));
+    cards.forEach((card) => {
+        card.addEventListener('pointerenter', (event) => {
+            if (event.pointerType !== 'touch') activate(card);
+        });
+        card.addEventListener('focus', () => activate(card));
+        card.addEventListener('click', () => activate(card));
+        card.addEventListener('keydown', (event) => {
+            const direction = { ArrowRight: 1, ArrowLeft: -1 }[event.key];
+            if (!direction) return;
+            event.preventDefault();
+            cards[(cards.indexOf(card) + direction + cards.length) % cards.length].focus();
+        });
+    });
+});
+
+// Keep native details semantics while animating both opening and closing.
+document.querySelectorAll('.orma-faq, .orma-service-faq').forEach((details) => {
+    const summary = details.querySelector('summary');
+    let animation;
+    let expanded = details.open;
+    summary.addEventListener('click', (event) => {
+        if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+        event.preventDefault();
+        const start = details.getBoundingClientRect().height;
+        animation?.cancel();
+        expanded = !expanded;
+        details.open = true;
+        details.style.height = '';
+        const end = expanded ? details.getBoundingClientRect().height : summary.getBoundingClientRect().height
+            + parseFloat(getComputedStyle(details).paddingTop) + parseFloat(getComputedStyle(details).paddingBottom)
+            + parseFloat(getComputedStyle(details).borderTopWidth) + parseFloat(getComputedStyle(details).borderBottomWidth);
+        details.style.overflow = 'hidden';
+        animation = details.animate({ height: [start + 'px', end + 'px'] }, {
+            duration: 360, easing: 'cubic-bezier(.22, 1, .36, 1)',
+        });
+        animation.onfinish = () => {
+            details.open = expanded;
+            details.style.overflow = '';
+            animation = null;
+        };
     });
 });
