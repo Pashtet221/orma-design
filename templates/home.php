@@ -1,57 +1,24 @@
-<?php defined('ABSPATH') || exit; ?>
-<div class="orma-layout-1 orma-layout orma-home" data-node="11:169">
-  <section class="orma-layout-222 orma-width orma-height orma-section" data-node="11:170">
-    <div class="orma-layout-223 orma-positioned orma-art" aria-hidden="true">
-      <div class="orma-layout-224 orma-positioned"></div>
-      <div class="orma-layout-225 orma-positioned"><img class="orma-layout-226 orma-positioned orma-art" alt="" src="<?php echo esc_url( get_theme_file_uri( "/assets/media/home-imgHeroMinimalTypography.png" ) ); ?>"></div>
-      <div class="orma-layout-227 orma-positioned"></div>
-      <div class="orma-layout-225 orma-positioned"><img class="orma-layout-228 orma-positioned orma-art" alt="" src="<?php echo esc_url( get_theme_file_uri( "/assets/media/home-imgHeroMinimalTypography1.png" ) ); ?>"></div>
-      <div class="orma-layout-229 orma-positioned"></div>
-    </div>
-    <header class="orma-layout-230 orma-row orma-width orma-header" data-node="11:175" id="orma-top">
-      <div class="orma-layout-3" data-node="21:675">
-        <div class="orma-layout-4 orma-width orma-height" data-node="21:670"><img class="orma-layout-5 orma-positioned orma-art" alt="" src="<?php echo esc_url( get_theme_file_uri( "/assets/media/about-imgGroup6.svg" ) ); ?>"></div>
-        <a class="orma-layout-231 orma-link" data-node="21:674" href="<?php echo esc_url( orma_url( "" ) ); ?>">
-          <span class="orma-layout-116">ORMA</span>
-          <span class="orma-layout-116">®</span>
-        </a>
-      </div>
-      <nav class="orma-layout-7 orma-row orma-width orma-nav" data-node="11:177" aria-label="Основная навигация">
-<button class="orma-menu-toggle" type="button" aria-expanded="false" aria-controls="orma-menu" aria-label="Открыть меню"><span></span><span></span><span></span></button><div class="orma-menu-items" id="orma-menu">        <a class="orma-layout-8 orma-link" data-node="11:178" href="<?php echo esc_url( orma_url( "works" ) ); ?>">Работы</a>
-        <a class="orma-layout-8 orma-link" data-node="11:179" href="<?php echo esc_url( orma_url( "services" ) ); ?>">Услуги</a>
-        <a class="orma-layout-8 orma-link" data-node="11:180" href="<?php echo esc_url( orma_url( "about" ) ); ?>">Обо мне</a>
-        <a class="orma-layout-8" data-node="11:181" href="<?php echo esc_url(orma_url("process")); ?>">Процесс</a>
-        <a class="orma-layout-8 orma-link" data-node="11:182" href="<?php echo esc_url( orma_url( "contacts" ) ); ?>">Контакты</a></div>
-      </nav>
-      <a class="orma-layout-9 orma-row orma-width orma-height orma-link" data-node="11:183" href="<?php echo esc_url( orma_url( "contacts" ) ); ?>">        <p class="orma-layout-10" data-node="I11:183;76:4962">Обсудим проект ↗</p></a>
-    </header>
-    <div class="orma-layout-232 orma-height" data-node="11:184"></div>
-    <div class="orma-layout-233 orma-height" data-node="11:185"></div>
-    <div class="orma-layout-234 orma-row orma-width orma-height" data-node="11:186">
-      <div class="orma-layout-235 orma-width" data-node="11:187">
-        <div class="orma-layout-236 orma-row orma-width orma-height" data-node="11:188">          <p class="orma-layout-237" data-node="11:189">UI/UX-ДИЗАЙН / САЙТЫ И ПРИЛОЖЕНИЯ</p></div>
-        <h1 class="orma-layout-238 orma-width orma-height" data-node="11:191">
-          <span class="orma-layout-239">Дизайн для людей.</span>
-          <span class="orma-layout-240">Решения для бизнеса.</span>
-        </h1>
-        <div class="orma-layout-241 orma-width" data-node="11:192">
-          <p class="orma-layout-19">Я Елена, UI/UX-дизайнер. Проектирую сайты и приложения,</p>
-          <p class="orma-layout-20">которыми удобно пользоваться и легко управлять.</p>
-        </div>
-        <div class="orma-layout-242 orma-row orma-width" data-node="11:193">
-          <a class="orma-layout-243 orma-row orma-width orma-height orma-link" data-node="11:194" href="<?php echo esc_url( orma_url( "contacts" ) ); ?>">            <div class="orma-layout-244" data-node="I11:194;76:4962">              <p class="orma-layout-214">Обсудить проект ↗</p></div></a>
-          <a class="orma-layout-245 orma-row orma-width orma-height orma-link" data-node="11:195" href="<?php echo esc_url( orma_url( "works" ) ); ?>">            <p class="orma-layout-170" data-node="I11:195;76:4962">Смотреть работы</p></a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="orma-layout-246 orma-width orma-height orma-section" data-node="11:402">
-    <p class="orma-layout-247 orma-positioned orma-width orma-height" data-node="11:403">01 / ИЗБРАННЫЕ РАБОТЫ</p>
-    <div class="orma-layout-248 orma-positioned orma-width orma-height" data-node="11:404">
-      <p class="orma-layout-249">Проекты, в которых</p>
-      <p class="orma-layout-250">дизайн решает задачу</p>
-    </div>
-    <p class="orma-layout-251 orma-positioned orma-width orma-height" data-node="11:405">Примеры визуальных концепций для сайтов, магазинов и сервисов.</p>
+<?php defined( 'ABSPATH' ) || exit; ?>
+<div class="orma-layout orma-home orma-home-v2">
+<section class="v2-hero" id="orma-top">
+<header class="v2-header orma-header">
+<a class="v2-logo" href="<?php echo esc_url( orma_url() ); ?>"><img src="<?php echo esc_url( get_theme_file_uri('/assets/media/about-imgGroup6.svg') ); ?>" alt="">ORMA®</a>
+<nav class="orma-nav" aria-label="Основная навигация">
+<button class="orma-menu-toggle" type="button" aria-expanded="false" aria-controls="orma-menu" aria-label="Открыть меню"><span></span><span></span><span></span></button>
+<div class="orma-menu-items" id="orma-menu">
+<?php foreach ( array('works'=>'Работы','services'=>'Услуги','about'=>'Обо мне','process'=>'Процесс','contacts'=>'Контакты') as $slug=>$label ) : ?>
+<a href="<?php echo esc_url( orma_url($slug) ); ?>"><?php echo esc_html($label); ?></a>
+<?php endforeach; ?>
+</div></nav>
+<a class="v2-button" href="<?php echo esc_url( orma_url('contacts') ); ?>">Обсудим проект ↗</a>
+</header>
+<div class="v2-intro"><p class="v2-eyebrow">UI/UX-ДИЗАЙН / САЙТЫ И ПРИЛОЖЕНИЯ</p>
+<h1>Дизайн для людей.<br>Решения для бизнеса.</h1>
+<p>Я Елена, UI/UX-дизайнер. Проектирую сайты и приложения,<br class="v2-desktop-break"> которыми удобно пользоваться и легко управлять.</p>
+<div class="v2-actions"><a class="v2-button" href="<?php echo esc_url( orma_url('contacts') ); ?>">Обсудить проект ↗</a><a class="v2-button v2-button-outline" href="<?php echo esc_url( orma_url('works') ); ?>">Смотреть работы</a></div></div>
+</section>
+<main>
+<section class="v2-projects v2-panel" aria-label="Избранные работы"><div class="v2-projects-heading"><p class="v2-eyebrow">01 / ИЗБРАННЫЕ РАБОТЫ</p><p>Примеры визуальных концепций для сайтов, магазинов и сервисов.</p></div>
     <div class="orma-portfolio">
     <button class="orma-layout-252 orma-positioned orma-width orma-height orma-portfolio-tab" data-node="11:406" aria-label="Orbit" type="button" aria-pressed="false"><img class="orma-portfolio-image" alt="" loading="lazy" src="<?php echo esc_url( get_theme_file_uri( "/assets/media/home-imgHeroMinimalTypography.png" ) ); ?>">
       <p class="orma-layout-253 orma-positioned orma-width orma-height" data-node="11:408">01</p>
@@ -75,151 +42,48 @@
       <span class="orma-portfolio-side">Alder Home</span><span class="orma-portfolio-title">Alder Home</span><span class="orma-portfolio-description">Дизайн сайта · Концепт</span>
     </button>
     </div>
-  </section>
-  <section class="orma-layout-266 orma-width orma-section" data-node="11:253">
-    <h2 class="orma-layout-267 orma-width" data-node="11:254">Дизайн для вашей задачи</h2>
-    <p class="orma-layout-268 orma-width" data-node="11:255">От первого сайта до обновления магазина или сервиса.</p>
-    <div class="orma-layout-269 orma-width" data-node="11:256">
-      <div class="orma-layout-270 orma-row orma-width orma-height" data-node="11:257">
-        <div class="orma-layout-271 orma-width orma-height" data-node="11:258">
-          <div class="orma-layout-272 orma-row orma-width orma-height" data-node="11:259">
-            <p class="orma-layout-273 orma-width" data-node="11:260">01</p>
-            <a class="orma-layout-274 orma-link" data-node="11:261" href="<?php echo esc_url( orma_url( "service" ) ); ?>"><img class="orma-layout-5 orma-positioned orma-art" alt="" src="<?php echo esc_url( get_theme_file_uri( "/assets/media/home-img.svg" ) ); ?>"></a>
-          </div>
-          <h2 class="orma-layout-275 orma-width" data-node="11:263">Дизайн сайтов</h2>
-          <div class="orma-layout-276 orma-width" data-node="11:264">
-            <p class="orma-layout-277">Лендинги, корпоративные сайты и портфолио.</p>
-            <p class="orma-layout-277">Чтобы представить бизнес, показать работы</p>
-            <p class="orma-layout-278">и получать обращения.</p>
-          </div>
-          <a class="orma-layout-279 orma-row orma-width orma-height orma-link" data-node="11:265" href="<?php echo esc_url( orma_url( "service" ) ); ?>">            <p class="orma-layout-280" data-node="11:266">Подробнее об услуге</p></a>
-        </div>
-        <div class="orma-layout-271 orma-width orma-height" data-node="11:267">
-          <div class="orma-layout-272 orma-row orma-width orma-height" data-node="11:268">
-            <p class="orma-layout-273 orma-width" data-node="11:269">02</p>
-            <a class="orma-layout-274 orma-link" data-node="11:270" href="<?php echo esc_url( orma_url( "shop-design" ) ); ?>"><img class="orma-layout-5 orma-positioned orma-art" alt="" src="<?php echo esc_url( get_theme_file_uri( "/assets/media/home-img.svg" ) ); ?>"></a>
-          </div>
-          <h2 class="orma-layout-275 orma-width" data-node="11:272">Дизайн интернет-магазинов</h2>
-          <div class="orma-layout-276 orma-width" data-node="11:273">
-            <p class="orma-layout-277">Каталог, карточки товаров и оформление заказа.</p>
-            <p class="orma-layout-277">Чтобы покупатель легко нашёл нужное</p>
-            <p class="orma-layout-278">и оформил покупку.</p>
-          </div>
-          <a class="orma-layout-279 orma-row orma-width orma-height orma-link" data-node="11:274" href="<?php echo esc_url( orma_url( "shop-design" ) ); ?>">            <p class="orma-layout-280" data-node="11:275">Подробнее об услуге</p></a>
-        </div>
-      </div>
-      <div class="orma-layout-270 orma-row orma-width orma-height" data-node="11:276">
-        <div class="orma-layout-271 orma-width orma-height" data-node="11:277">
-          <div class="orma-layout-272 orma-row orma-width orma-height" data-node="11:278">
-            <p class="orma-layout-273 orma-width" data-node="11:279">03</p>
-            <a class="orma-layout-274 orma-link" data-node="11:280" href="<?php echo esc_url( orma_url( "redesign" ) ); ?>"><img class="orma-layout-5 orma-positioned orma-art" alt="" src="<?php echo esc_url( get_theme_file_uri( "/assets/media/home-img.svg" ) ); ?>"></a>
-          </div>
-          <h2 class="orma-layout-275 orma-width" data-node="11:282">Редизайн сайтов</h2>
-          <div class="orma-layout-276 orma-width" data-node="11:283">
-            <p class="orma-layout-277">Обновление дизайна и структуры сайта.</p>
-            <p class="orma-layout-277">Чтобы освежить внешний вид и сделать</p>
-            <p class="orma-layout-278">существующий сайт удобнее.</p>
-          </div>
-          <a class="orma-layout-279 orma-row orma-width orma-height orma-link" data-node="11:284" href="<?php echo esc_url( orma_url( "redesign" ) ); ?>">            <p class="orma-layout-280" data-node="11:285">Подробнее об услуге</p></a>
-        </div>
-        <div class="orma-layout-271 orma-width orma-height" data-node="11:286">
-          <div class="orma-layout-272 orma-row orma-width orma-height" data-node="11:287">
-            <p class="orma-layout-273 orma-width" data-node="11:288">04</p>
-            <a class="orma-layout-274 orma-link" data-node="11:289" href="<?php echo esc_url( orma_url( "app-design" ) ); ?>"><img class="orma-layout-5 orma-positioned orma-art" alt="" src="<?php echo esc_url( get_theme_file_uri( "/assets/media/home-img.svg" ) ); ?>"></a>
-          </div>
-          <h2 class="orma-layout-275 orma-width" data-node="11:291">Дизайн приложений и сервисов</h2>
-          <div class="orma-layout-276 orma-width" data-node="11:292">
-            <p class="orma-layout-277">Мобильные приложения, личные кабинеты</p>
-            <p class="orma-layout-277">и веб-сервисы. Чтобы сложные задачи</p>
-            <p class="orma-layout-278">решались простыми действиями.</p>
-          </div>
-          <a class="orma-layout-279 orma-row orma-width orma-height orma-link" data-node="11:293" href="<?php echo esc_url( orma_url( "app-design" ) ); ?>">            <p class="orma-layout-280" data-node="11:294">Подробнее об услуге</p></a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="orma-layout-281 orma-width orma-height orma-section" data-node="11:295">
-    <div class="orma-layout-282 orma-row orma-height" data-node="11:296">
-      <div class="orma-layout-283 orma-width orma-height" data-node="11:297">
-        <div class="orma-layout-284 orma-positioned orma-art" aria-hidden="true">
-          <div class="orma-layout-285 orma-positioned"></div>
-<img class="orma-layout-286 orma-positioned orma-art" alt="" src="<?php echo esc_url( get_theme_file_uri( "/assets/media/about-img.png" ) ); ?>">
-        </div>
-      </div>
-      <div class="orma-layout-287 orma-width orma-height" data-node="11:300">
-        <h2 class="orma-layout-288 orma-width orma-height" data-node="11:301">Немного обо мне</h2>
-        <div class="orma-layout-289 orma-width orma-height" data-node="11:302">
-          <p class="orma-layout-290">Я Елена — UI/UX-дизайнер.</p>
-          <p class="orma-layout-290">Помогаю вашим идеям стать</p>
-          <p class="orma-layout-291">сайтами и приложениями.</p>
-        </div>
-        <p class="orma-layout-292 orma-width orma-height" data-node="11:303">Продумываю путь пользователя, структуру страниц и визуальный стиль. Обсуждаю решения с вами на каждом этапе, чтобы результат был понятным, удобным и подходил вашему проекту.</p>
-        <a class="orma-layout-293 orma-row orma-width orma-height orma-link" data-node="11:304" href="<?php echo esc_url( orma_url( "about" ) ); ?>">          <p class="orma-layout-170" data-node="I11:304;76:4954">Больше обо мне ↗</p></a>
-      </div>
-    </div>
-  </section>
-  <section class="orma-layout-294 orma-width orma-height orma-section orma-mobile-flow" data-node="91:281" id="orma-process">
-    <h2 class="orma-layout-295 orma-positioned orma-width" data-node="91:282">Как проходит работа</h2>
-    <h2 class="orma-layout-296 orma-positioned orma-width" data-node="91:283">01</h2>
-    <div class="orma-layout-297 orma-positioned orma-width orma-mobile-rule" data-node="91:284"></div>
-    <p class="orma-layout-298 orma-positioned orma-width" data-node="91:285">Обсуждение</p>
-    <p class="orma-layout-299 orma-positioned orma-width" data-node="91:286">Обсуждаем проект, задачи, пожелания,сроки и стоимость.</p>
-    <h2 class="orma-layout-300 orma-positioned orma-width" data-node="91:287">02</h2>
-    <div class="orma-layout-301 orma-positioned orma-width orma-mobile-rule" data-node="91:288"></div>
-    <p class="orma-layout-302 orma-positioned orma-width" data-node="91:289">Проектирование</p>
-    <div class="orma-layout-303 orma-positioned orma-width" data-node="91:290">
-      <p class="orma-layout-249">Продумываю структуру и логику</p>
-      <p class="orma-layout-250">удобного интерфейса.</p>
-    </div>
-    <h2 class="orma-layout-304 orma-positioned orma-width" data-node="91:291">03</h2>
-    <div class="orma-layout-305 orma-positioned orma-width orma-mobile-rule" data-node="91:292"></div>
-    <p class="orma-layout-306 orma-positioned orma-width" data-node="91:293">Дизайн</p>
-    <div class="orma-layout-307 orma-positioned orma-width" data-node="91:294">
-      <p class="orma-layout-249">Создаю макеты, согласовываю</p>
-      <p class="orma-layout-250">детали и вношу правки.</p>
-    </div>
-    <h2 class="orma-layout-308 orma-positioned orma-width" data-node="91:295">04</h2>
-    <div class="orma-layout-309 orma-positioned orma-width orma-mobile-rule" data-node="91:296"></div>
-    <p class="orma-layout-310 orma-positioned orma-width" data-node="91:297">Передача</p>
-    <div class="orma-layout-311 orma-positioned orma-width" data-node="91:298">
-      <p class="orma-layout-249">Подготавливаю макеты в Figma</p>
-      <p class="orma-layout-250">для дальнейшей разработки.</p>
-    </div>
-  </section>
-  <section class="orma-layout-312 orma-width orma-section" data-node="11:328">
-    <div class="orma-layout-313 orma-width" data-node="11:329">
-      <div class="orma-layout-314 orma-row orma-width orma-height" data-node="11:330">
-        <div class="orma-layout-315 orma-width" data-node="11:331">
-          <h2 class="orma-layout-316 orma-width" data-node="11:332">Частые вопросы</h2>
-          <p class="orma-layout-317 orma-width" data-node="11:333">Всё, что стоит знать перед началом проекта.</p>
-        </div>
-        <a class="orma-layout-318 orma-width" data-node="11:334" href="<?php echo esc_url(orma_url("contacts")); ?>">Задать вопрос ↗</a>
-      </div>
-      <div class="orma-layout-319 orma-width" data-node="11:335">
-        <details class="orma-layout-320 orma-width orma-faq" data-node="11:336" open><summary>Чем дизайн сайта отличается от дизайна магазина?<span class="orma-faq-icon" aria-hidden="true"><img class="orma-faq-up" alt="" src="<?php echo esc_url(get_theme_file_uri('/assets/media/home-imgChevronUp.svg')); ?>"><img class="orma-faq-down" alt="" src="<?php echo esc_url(get_theme_file_uri('/assets/media/home-imgChevronDown.svg')); ?>"></span></summary><p class="orma-faq-answer">Сайт помогает рассказать о компании, услугах или показать портфолио. Для магазина дополнительно продумываю каталог, выбор товара, корзину и оформление заказа.</p></details>
-        <details class="orma-layout-325 orma-width orma-faq" data-node="11:342"><summary>Можно ли обновить существующий сайт?<span class="orma-faq-icon" aria-hidden="true"><img class="orma-faq-up" alt="" src="<?php echo esc_url(get_theme_file_uri('/assets/media/home-imgChevronUp.svg')); ?>"><img class="orma-faq-down" alt="" src="<?php echo esc_url(get_theme_file_uri('/assets/media/home-imgChevronDown.svg')); ?>"></span></summary><p class="orma-faq-answer">Да. Можно сохранить привычную структуру сайта и обновить отдельные страницы или спроектировать сайт заново.</p></details>
-        <details class="orma-layout-325 orma-width orma-faq" data-node="11:347"><summary>Что я получу в результате?<span class="orma-faq-icon" aria-hidden="true"><img class="orma-faq-up" alt="" src="<?php echo esc_url(get_theme_file_uri('/assets/media/home-imgChevronUp.svg')); ?>"><img class="orma-faq-down" alt="" src="<?php echo esc_url(get_theme_file_uri('/assets/media/home-imgChevronDown.svg')); ?>"></span></summary><p class="orma-faq-answer">Вы получите макеты в Figma, адаптивные версии и материалы для передачи разработчику.</p></details>
-        <details class="orma-layout-325 orma-width orma-faq" data-node="11:352"><summary>Сколько стоит дизайн и сколько времени он занимает?<span class="orma-faq-icon" aria-hidden="true"><img class="orma-faq-up" alt="" src="<?php echo esc_url(get_theme_file_uri('/assets/media/home-imgChevronUp.svg')); ?>"><img class="orma-faq-down" alt="" src="<?php echo esc_url(get_theme_file_uri('/assets/media/home-imgChevronDown.svg')); ?>"></span></summary><p class="orma-faq-answer">Стоимость и сроки зависят от объёма проекта. После обсуждения задачи я предложу подходящий формат работы.</p></details>
-        <details class="orma-layout-325 orma-width orma-faq" data-node="11:357"><summary>Как начать работу?<span class="orma-faq-icon" aria-hidden="true"><img class="orma-faq-up" alt="" src="<?php echo esc_url(get_theme_file_uri('/assets/media/home-imgChevronUp.svg')); ?>"><img class="orma-faq-down" alt="" src="<?php echo esc_url(get_theme_file_uri('/assets/media/home-imgChevronDown.svg')); ?>"></span></summary><p class="orma-faq-answer">Напишите мне о задаче через форму на странице контактов или в мессенджере.</p></details>
-      </div>
-    </div>
-  </section>
-  <section class="orma-layout-65 orma-width orma-section orma-cta" data-node="11:362">
-    <p class="orma-layout-66" data-node="11:363">ОБСУДИМ ВАШУ ЗАДАЧУ</p>
-    <div class="orma-layout-67 orma-row" data-node="11:364">
-      <div class="orma-layout-326 orma-width" data-node="11:365">
-        <p class="orma-layout-69">Давайте обсудим</p>
-        <p class="orma-layout-70">ваш проект</p>
-      </div>
-      <div class="orma-layout-71 orma-width" data-node="11:366">
-        <a class="orma-layout-72 orma-row orma-width orma-height orma-link" data-node="11:367" href="<?php echo esc_url( orma_url( "contacts" ) ); ?>">          <p class="orma-layout-73" data-node="I11:367;76:4962">Обсудить проект ↗</p></a>
-        <div class="orma-layout-74 orma-width" data-node="11:368">
-          <p class="orma-layout-75">Расскажите об идее —</p>
-          <p class="orma-layout-76">найдём подходящее решение.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+</section>
+<section class="v2-services"><h2>Услуги для вашей задачи</h2><p class="v2-muted">От первого сайта до обновления магазина или сервиса.</p><div class="v2-service-list">
+<?php $services = array(
+ array('service','Дизайн сайтов','Лендинги, корпоративные сайты и портфолио.'),
+ array('shop-design','Дизайн интернет-магазинов','Каталог, карточки товаров и оформление заказа.'),
+ array('redesign','Редизайн сайтов','Обновление дизайна и структуры сайта.'),
+ array('app-design','Дизайн приложений и сервисов','Мобильные приложения, личные кабинеты и веб-сервисы.'),
+); foreach ( $services as $index=>$service ) : ?>
+<a class="v2-service" href="<?php echo esc_url( orma_url($service[0]) ); ?>"><span class="v2-service-number"><?php echo esc_html(sprintf('%02d',$index+1)); ?></span><h3><?php echo esc_html($service[1]); ?></h3><p><?php echo esc_html($service[2]); ?></p><span class="v2-service-arrow" aria-hidden="true">↗</span></a>
+<?php endforeach; ?></div></section>
+<section class="v2-about v2-panel"><div><p class="v2-eyebrow">04 / ОБО МНЕ</p><h2>Привет, я Елена.<br>Создаю дизайн,<br>который понятен.</h2><p>Я UX/UI-дизайнер. Проектирую сайты, интернет-магазины и цифровые сервисы с вниманием к человеку и деталям.</p><a class="v2-button v2-button-dark" href="<?php echo esc_url( orma_url('about') ); ?>">Подробнее обо мне ↗</a></div><img src="<?php echo esc_url( get_theme_file_uri('/assets/media/about-img.png') ); ?>" alt="Елена — UX/UI-дизайнер" loading="lazy"></section>
+<section class="v2-process v2-panel" id="orma-process"><div><p class="v2-eyebrow">ПРОЦЕСС РАБОТЫ</p><h2>Как проходит<br>работа</h2><p>Четыре понятных этапа — от первой<br>беседы до готового макета в Figma.</p><a class="v2-process-link" href="<?php echo esc_url( orma_url('contacts') ); ?>"><span aria-hidden="true">↳</span> Обсудить проект</a></div><ol>
+<?php foreach (array(
+'Обсуждение'=>'Обсуждаем задачи проекта, ваши пожелания, сроки и стоимость работы.',
+'Проектирование'=>'Продумываю структуру страниц, пользовательские сценарии и логику интерфейса.',
+'Дизайн'=>'Создаю визуальный дизайн, согласовываю детали и вношу необходимые правки.',
+'Передача макетов'=>'Подготавливаю аккуратные макеты в Figma для дальнейшей разработки.'
+) as $title=>$description) : ?><li><h3><?php echo esc_html($title); ?></h3><p><?php echo esc_html($description); ?></p></li><?php endforeach; ?>
+</ol></section>
+<section class="v2-faq"><div><h2>Часто<br> задаваемые<br> вопросы</h2><p class="v2-muted">Ответы на вопросы о дизайне, сроках и сотрудничестве.</p><a class="v2-question-link" href="<?php echo esc_url( orma_url('contacts') ); ?>">Задать вопрос ↗</a></div><div class="v2-faq-list">
+<details class="orma-faq" data-node="11:336" open><summary>Чем дизайн сайта отличается от дизайна магазина?<span class="orma-faq-icon" aria-hidden="true"><img class="orma-faq-up" alt="" src="<?php echo esc_url(get_theme_file_uri('/assets/media/home-imgChevronUp.svg')); ?>"><img class="orma-faq-down" alt="" src="<?php echo esc_url(get_theme_file_uri('/assets/media/home-imgChevronDown.svg')); ?>"></span></summary><p class="orma-faq-answer">Сайт помогает рассказать о компании, услугах или показать портфолио. Для магазина дополнительно продумываю каталог, выбор товара, корзину и оформление заказа.</p></details>
+<details class="orma-faq" data-node="11:342"><summary>Можно ли обновить существующий сайт?<span class="orma-faq-icon" aria-hidden="true"><img class="orma-faq-up" alt="" src="<?php echo esc_url(get_theme_file_uri('/assets/media/home-imgChevronUp.svg')); ?>"><img class="orma-faq-down" alt="" src="<?php echo esc_url(get_theme_file_uri('/assets/media/home-imgChevronDown.svg')); ?>"></span></summary><p class="orma-faq-answer">Да. Можно сохранить привычную структуру сайта и обновить отдельные страницы или спроектировать сайт заново.</p></details>
+<details class="orma-faq" data-node="11:347"><summary>Что я получу в результате?<span class="orma-faq-icon" aria-hidden="true"><img class="orma-faq-up" alt="" src="<?php echo esc_url(get_theme_file_uri('/assets/media/home-imgChevronUp.svg')); ?>"><img class="orma-faq-down" alt="" src="<?php echo esc_url(get_theme_file_uri('/assets/media/home-imgChevronDown.svg')); ?>"></span></summary><p class="orma-faq-answer">Вы получите макеты в Figma, адаптивные версии и материалы для передачи разработчику.</p></details>
+<details class="orma-faq" data-node="11:352"><summary>Сколько стоит дизайн и сколько времени он занимает?<span class="orma-faq-icon" aria-hidden="true"><img class="orma-faq-up" alt="" src="<?php echo esc_url(get_theme_file_uri('/assets/media/home-imgChevronUp.svg')); ?>"><img class="orma-faq-down" alt="" src="<?php echo esc_url(get_theme_file_uri('/assets/media/home-imgChevronDown.svg')); ?>"></span></summary><p class="orma-faq-answer">Стоимость и сроки зависят от объёма проекта. После обсуждения задачи я предложу подходящий формат работы.</p></details>
+<details class="orma-faq" data-node="11:357"><summary>Как начать работу?<span class="orma-faq-icon" aria-hidden="true"><img class="orma-faq-up" alt="" src="<?php echo esc_url(get_theme_file_uri('/assets/media/home-imgChevronUp.svg')); ?>"><img class="orma-faq-down" alt="" src="<?php echo esc_url(get_theme_file_uri('/assets/media/home-imgChevronDown.svg')); ?>"></span></summary><p class="orma-faq-answer">Напишите мне о задаче через форму на странице контактов или в мессенджере.</p></details></div></section>
+<section class="v2-journal"><h2>Читайте также</h2><div class="v2-articles">
+<?php
+$recent_posts = get_posts(array('numberposts'=>3,'post_status'=>'publish'));
+if ($recent_posts) : foreach ($recent_posts as $article) :
+$categories = get_the_category($article->ID);
+?>
+<article><a class="v2-article-cover" href="<?php echo esc_url(get_permalink($article)); ?>" aria-label="<?php echo esc_attr(get_the_title($article)); ?>"><?php echo get_the_post_thumbnail($article, 'large', array('loading'=>'lazy')); ?></a><span class="v2-tag"><?php echo esc_html($categories ? $categories[0]->name : 'Дизайн'); ?></span><h3><a href="<?php echo esc_url(get_permalink($article)); ?>"><?php echo esc_html(get_the_title($article)); ?></a></h3><p><?php echo esc_html(wp_trim_words(get_the_excerpt($article),18)); ?></p><a class="v2-read" href="<?php echo esc_url(get_permalink($article)); ?>">Читать статью ↗</a></article>
+<?php endforeach; else : foreach (array(
+array('UX/UI','Почему прототипы упрощают работу','Начинаем со структуры, прежде чем переходить к визуальным деталям.'),
+array('WordPress','Авторская тема или конструктор?','Как выбрать подход, который соответствует контенту и задачам проекта.'),
+array('WordPress','Как упростить управление контентом','Практический взгляд на гибкие блоки и повседневное редактирование сайта.')
+) as $article) : ?>
+<article><a class="v2-article-cover" href="<?php echo esc_url(orma_url('article')); ?>" aria-label="<?php echo esc_attr($article[1]); ?>"></a><span class="v2-tag"><?php echo esc_html($article[0]); ?></span><h3><a href="<?php echo esc_url(orma_url('article')); ?>"><?php echo esc_html($article[1]); ?></a></h3><p><?php echo esc_html($article[2]); ?></p><a class="v2-read" href="<?php echo esc_url(orma_url('article')); ?>">Читать статью ↗</a></article>
+<?php endforeach; endif; ?>
+</div></section>
+<section class="v2-cta"><div><p class="v2-eyebrow">ОБСУДИМ ВАШУ ЗАДАЧУ</p><h2>Давайте обсудим<br>ваш проект</h2></div><div><a class="v2-button" href="<?php echo esc_url(orma_url('contacts')); ?>">Обсудить проект ↗</a><p>Расскажите об идее —<br>найдём подходящее решение.</p></div></section>
+</main>
   <footer class="orma-layout-77 orma-width orma-footer" data-node="11:369">
     <div class="orma-layout-78 orma-row orma-width orma-footer-grid" data-node="I11:369;64:326">
       <div class="orma-layout-79 orma-width" data-node="I11:369;64:327">
