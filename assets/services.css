@@ -17,8 +17,10 @@
 .orma-services-v2 .sv-section-heading>a{font-size:14px;white-space:nowrap}
 .orma-services-v2 .sv-projects{padding:80px; background:#fff}
 .orma-services-v2 .sv-project-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px}
-.orma-services-v2 .sv-project-cover{display:block;aspect-ratio:1.33;background:#bfbfbf;border-radius:9px;transition:background .4s ease,transform .5s var(--orma-ease)}
-.orma-services-v2 .sv-project-cover:hover{background:#aeb0b5;transform:translateY(-4px)}
+.orma-services-v2 .sv-project-cover{display:block;aspect-ratio:1.33;background:#050505;overflow:hidden;border-radius:9px;transition:background .4s ease,transform .5s var(--orma-ease)}
+.orma-services-v2 .sv-project-cover:hover{transform:translateY(-4px)}
+.orma-services-v2 .sv-project-cover img{display:block;width:100%;height:100%;object-fit:contain;transition:transform .7s var(--orma-ease)}
+.orma-services-v2 .sv-project-cover:hover img{transform:scale(1.045)}
 .orma-services-v2 .sv-project-grid h3{font-size:27px;margin:22px 0 14px}
 .orma-services-v2 .sv-project-grid h3 a{display:flex;align-items:center;justify-content:space-between}
 .orma-services-v2 .sv-project-grid .sv-tags li{background:#ededee;color:#69696e}
