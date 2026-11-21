@@ -15,8 +15,12 @@ function orma_assets() {
 	wp_enqueue_style( 'orma-layout', get_theme_file_uri( '/assets/layout.css' ), array(), $version );
 	wp_enqueue_style( 'orma', get_theme_file_uri( '/assets/theme.css' ), array( 'orma-layout' ), $version );
 	wp_enqueue_script( 'orma', get_theme_file_uri( '/assets/theme.js' ), array(), $version, true );
-	if ( is_front_page() || is_home() ) {
+	$is_services = is_page( 'services' ) || is_page_template( 'page-templates/services.php' );
+	if ( is_front_page() || is_home() || $is_services ) {
 		wp_enqueue_style( 'orma-home', get_theme_file_uri( '/assets/home.css' ), array( 'orma' ), (string) filemtime( get_theme_file_path( '/assets/home.css' ) ) );
+	}
+	if ( $is_services ) {
+		wp_enqueue_style( 'orma-services', get_theme_file_uri( '/assets/services.css' ), array( 'orma-home' ), (string) filemtime( get_theme_file_path( '/assets/services.css' ) ) );
 	}
 }
 add_action( 'wp_enqueue_scripts', 'orma_assets' );

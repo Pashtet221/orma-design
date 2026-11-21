@@ -1,0 +1,72 @@
+/* Services layout; shared refined components retain their existing interactions. */
+.orma-services-v2 .v2-hero{border-radius:0 0 50px 50px;min-height:720px;padding-bottom:150px}
+.orma-services-v2 .v2-services{padding-top:80px;padding-bottom:75px}
+.orma-services-v2 .v2-services-heading{margin:20px 0 60px}
+.orma-services-v2 .sv-service{display:grid;grid-template-columns:50px minmax(0,1fr) 430px;gap:28px;align-items:center;min-height:170px;padding:25px 0;border-bottom:1px solid #ffffff20;transition:background .4s ease,padding .5s var(--orma-ease)}
+.orma-services-v2 .sv-service:last-child{border:0}
+.orma-services-v2 .sv-service:hover,.orma-services-v2 .sv-service:focus-within{background:#ffffff05;padding-left:12px;padding-right:12px}
+.orma-services-v2 .sv-number{color:#909095;font-size:16px}
+.orma-services-v2 .sv-service h3{font-size:40px;font-weight:400;margin-bottom:12px}
+.orma-services-v2 .sv-service p{font-size:17px;color:#99999f;max-width:430px;line-height:1.4}
+.orma-services-v2 .sv-service-meta{display:flex;flex-direction:column;align-items:start;gap:60px}
+.orma-services-v2 .sv-tags{display:flex;gap:8px;flex-wrap:wrap;list-style:none;margin:0;padding:0}
+.orma-services-v2 .sv-tags li{font-size:12px;line-height:1.4;padding:6px 14px;border-radius:99px;background:#2d3036;color:#b5b6bc}
+.orma-services-v2 .sv-discuss{font-size:15px}
+.orma-services-v2 .sv-section-heading{display:flex;align-items:baseline;justify-content:space-between;gap:25px;margin-bottom:32px}
+.orma-services-v2 .sv-section-heading h2{font-size:48px}
+.orma-services-v2 .sv-section-heading>a{font-size:14px;white-space:nowrap}
+.orma-services-v2 .sv-projects{padding:80px; background:#fff}
+.orma-services-v2 .sv-project-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px}
+.orma-services-v2 .sv-project-cover{display:block;aspect-ratio:1.33;background:#bfbfbf;border-radius:9px;transition:background .4s ease,transform .5s var(--orma-ease)}
+.orma-services-v2 .sv-project-cover:hover{background:#aeb0b5;transform:translateY(-4px)}
+.orma-services-v2 .sv-project-grid h3{font-size:27px;margin:22px 0 14px}
+.orma-services-v2 .sv-project-grid h3 a{display:flex;align-items:center;justify-content:space-between}
+.orma-services-v2 .sv-project-grid .sv-tags li{background:#ededee;color:#69696e}
+.orma-services-v2 .sv-project-grid p{font-size:16px;margin-top:20px;color:#64646a}
+.orma-services-v2 .sv-delivery{background:#fff;padding:80px}
+.orma-services-v2 .sv-delivery-grid{display:grid;grid-template-columns:1fr 1fr;gap:100px}
+.orma-services-v2 .sv-delivery-grid h2{font-size:48px;margin-bottom:35px}
+.orma-services-v2 .sv-delivery-grid>div>p{max-width:430px;color:#99999d;font-size:19px;margin-top:25px;line-height:1.5}
+.orma-services-v2 .sv-delivery-grid dl{margin:0}
+.orma-services-v2 .sv-delivery-grid dl>div{padding:0 0 28px;margin-bottom:28px;border-bottom:1px solid #d4d4d6}
+.orma-services-v2 .sv-delivery-grid dl>div:last-child{border:0;margin-bottom:0}
+.orma-services-v2 .sv-delivery-grid dt{font-size:25px;line-height:1.3;font-weight:500;margin-bottom:16px}
+.orma-services-v2 .sv-delivery-grid dd{font-size:18px;line-height:1.5;color:#99999d;max-width:430px;margin:0}
+.orma-services-v2 .sv-workflow{margin-top:110px}
+.orma-services-v2 .sv-workflow h2{font-size:48px;margin-bottom:35px}
+.orma-services-v2 .sv-workflow ol{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:32px;list-style:none;padding:0;margin:0;counter-reset:workflow}
+.orma-services-v2 .sv-workflow li{counter-increment:workflow}
+.orma-services-v2 .sv-workflow li::before{content:'0' counter(workflow);display:block;color:#99999d;font-size:24px;padding-bottom:40px;border-bottom:1px solid #d4d4d6;margin-bottom:25px}
+.orma-services-v2 .sv-workflow h3{font-size:26px;font-weight:500;margin-bottom:20px}
+.orma-services-v2 .sv-workflow p{font-size:16px;color:#99999d;line-height:1.5}
+.orma-services-v2 .v2-faq{padding:90px 72px}
+@media(max-width:1000px){
+.orma-services-v2 .v2-hero{min-height:700px;border-radius:0 0 36px 36px}
+.orma-services-v2 .sv-service{grid-template-columns:30px minmax(0,1fr) 260px;gap:20px}
+.orma-services-v2 .sv-service h3{font-size:29px}.orma-services-v2 .sv-service p{font-size:15px}
+.orma-services-v2 .sv-service-meta{gap:35px}.orma-services-v2 .sv-tags{gap:6px}.orma-services-v2 .sv-tags li{font-size:10px;padding:5px 10px}
+.orma-services-v2 .sv-projects,.orma-services-v2 .sv-delivery{padding:50px 32px}
+.orma-services-v2 .sv-delivery-grid{gap:45px}.orma-services-v2 .sv-delivery-grid h2,.orma-services-v2 .sv-workflow h2,.orma-services-v2 .sv-section-heading h2{font-size:38px}
+.orma-services-v2 .sv-delivery-grid>div>p,.orma-services-v2 .sv-delivery-grid dd{font-size:16px}
+.orma-services-v2 .sv-workflow ol{gap:22px}.orma-services-v2 .sv-workflow h3{font-size:22px}.orma-services-v2 .sv-workflow p{font-size:14px}
+.orma-services-v2 .v2-faq{padding:65px 32px}
+}
+@media(max-width:600px){
+.orma-services-v2 .v2-hero{min-height:650px;border-radius:0 0 28px 28px;padding-bottom:100px}
+.orma-services-v2 .v2-services{padding:48px 22px}
+.orma-services-v2 .sv-service{grid-template-columns:24px 1fr;gap:12px;min-height:0;padding:28px 0}
+.orma-services-v2 .sv-service h3{font-size:27px}.orma-services-v2 .sv-number{font-size:12px}
+.orma-services-v2 .sv-service-meta{grid-column:2;gap:24px;margin-top:10px}
+.orma-services-v2 .sv-projects,.orma-services-v2 .sv-delivery{padding:38px 22px}
+.orma-services-v2 .sv-project-grid,.orma-services-v2 .sv-delivery-grid{grid-template-columns:1fr;gap:40px}
+.orma-services-v2 .sv-section-heading{align-items:start}.orma-services-v2 .sv-section-heading h2{font-size:30px}.orma-services-v2 .sv-section-heading>a{font-size:12px;padding-top:7px}
+.orma-services-v2 .sv-delivery-grid h2,.orma-services-v2 .sv-workflow h2{font-size:34px}
+.orma-services-v2 .sv-project-grid h3{font-size:26px}.orma-services-v2 .sv-delivery-grid dt{font-size:23px}
+.orma-services-v2 .sv-workflow{margin-top:60px}.orma-services-v2 .sv-workflow ol{grid-template-columns:1fr 1fr;gap:35px 24px}
+.orma-services-v2 .sv-workflow li::before{padding-bottom:22px;font-size:20px;margin-bottom:20px}
+.orma-services-v2 .sv-workflow h3{font-size:20px}.orma-services-v2 .v2-faq{padding:55px 22px}
+}
+/* Override the legacy inner-page header height for the refined header. */
+.orma-layout.orma-services-v2 .v2-header{min-height:46px}
+.orma-services-v2 .v2-intro{padding-top:124px}
+@media(max-width:600px){.orma-services-v2 .v2-intro{padding-top:105px}}
