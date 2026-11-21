@@ -24,16 +24,16 @@
       <p class="orma-layout-253 orma-positioned orma-width orma-height" data-node="11:408">01</p>
       <span class="orma-portfolio-side">Orbit</span><span class="orma-portfolio-title">Orbit</span><span class="orma-portfolio-description">Дизайн сайта · Концепт</span>
     </button>
-    <button class="orma-layout-257 orma-positioned orma-width orma-height orma-portfolio-tab" data-node="11:410" aria-label="Atelier" type="button" aria-pressed="false"><img class="orma-portfolio-image" alt="" loading="lazy" src="<?php echo esc_url( get_theme_file_uri( "/assets/media/services-imgHeroClassicEditorial.png" ) ); ?>">
+    <button class="orma-layout-257 orma-positioned orma-width orma-height orma-portfolio-tab" data-node="11:410" aria-label="Atelier" type="button" aria-pressed="false"><img class="orma-portfolio-image" alt="" loading="lazy" src="<?php echo esc_url( get_theme_file_uri( "/assets/media/home-imgHeroMinimalTypography1.png" ) ); ?>">
       <p class="orma-layout-253 orma-positioned orma-width orma-height" data-node="11:412">02</p>
       <span class="orma-portfolio-side">Atelier</span><span class="orma-portfolio-title">Atelier</span><span class="orma-portfolio-description">Дизайн сайта · Концепт</span>
     </button>
-    <button class="orma-layout-258 orma-positioned orma-width orma-height orma-portfolio-tab" data-node="11:414" aria-label="Furnitra" type="button" aria-pressed="true"><img class="orma-portfolio-image" alt="" loading="lazy" src="<?php echo esc_url( get_theme_file_uri( "/assets/media/pricing-img.png" ) ); ?>">
+    <button class="orma-layout-258 orma-positioned orma-width orma-height orma-portfolio-tab" data-node="11:414" aria-label="Furnitra" type="button" aria-pressed="true"><img class="orma-portfolio-image" alt="" loading="lazy" src="<?php echo esc_url( get_theme_file_uri( "/assets/media/services-imgHeroClassicEditorial.png" ) ); ?>">
       <p class="orma-layout-259 orma-positioned orma-width orma-height" data-node="11:416">03</p>
       <span class="orma-portfolio-title">Furnitra</span>
       <span class="orma-portfolio-description">Дизайн сайта · Концепт</span><span class="orma-portfolio-side">Furnitra</span>
     </button>
-    <button class="orma-layout-262 orma-positioned orma-width orma-height orma-portfolio-tab" data-node="11:419" aria-label="Septik.site" type="button" aria-pressed="false"><img class="orma-portfolio-image" alt="" loading="lazy" src="<?php echo esc_url( get_theme_file_uri( "/assets/media/home-imgHeroMinimalTypography1.png" ) ); ?>">
+    <button class="orma-layout-262 orma-positioned orma-width orma-height orma-portfolio-tab" data-node="11:419" aria-label="Septik.site" type="button" aria-pressed="false"><img class="orma-portfolio-image" alt="" loading="lazy" src="<?php echo esc_url( get_theme_file_uri( "/assets/media/pricing-img.png" ) ); ?>">
       <p class="orma-layout-253 orma-positioned orma-width orma-height" data-node="11:421">04</p>
       <span class="orma-portfolio-side">Septik.site</span><span class="orma-portfolio-title">Septik.site</span><span class="orma-portfolio-description">Дизайн сайта · Концепт</span>
     </button>

@@ -87,8 +87,11 @@
 }
 /* Latest refined composition: compact hero, quiet project covers, icon-led steps. */
 .orma-home-v2 .v2-projects-heading h2{font-size:48px;max-width:650px}
-.orma-home-v2 .orma-portfolio-tab{background:#bfbfbf;color:#171719}
-.orma-home-v2 .orma-portfolio-image,.orma-home-v2 .orma-portfolio-tab::after{display:none}
+.orma-home-v2 .orma-portfolio-tab{background:#050505;color:#fff}
+.orma-home-v2 .orma-portfolio-image{display:block;object-position:center}
+.orma-home-v2 .orma-portfolio-tab::after{display:block}
+.orma-home-v2 .orma-portfolio-tab>p:first-of-type{z-index:2;text-shadow:0 1px 6px #000}
+.orma-home-v2 :is(.orma-portfolio-side,.orma-portfolio-title,.orma-portfolio-description){text-shadow:0 2px 10px #000}
 .orma-home-v2 .v2-services-heading{display:grid;grid-template-columns:1fr 440px;gap:80px;align-items:start;margin:25px 0 50px}
 .orma-home-v2 .v2-services-heading h2{font-size:56px}
 .orma-home-v2 .v2-services-heading p{padding-top:12px;max-width:420px;font-size:19px}
