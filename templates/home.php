@@ -61,7 +61,7 @@ array('Визуальный дизайн','Подбираю цвета, шриф
 array('Передача макетов','Подготавливаю файл Figma: компоненты, состояния и материалы для разработки.','M12 3v12 m-4-4 4 4 4-4 M5 16v5h14v-5')
 ); foreach ($steps as $step) : ?><li><span class="v2-step-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"><path d="<?php echo esc_attr($step[2]); ?>"/></svg></span><h3><?php echo esc_html($step[0]); ?></h3><p><?php echo esc_html($step[1]); ?></p></li><?php endforeach; ?>
 </ol></section>
-<section class="v2-faq"><div><h2>Часто<br> задаваемые<br> вопросы</h2><p class="v2-muted">Ответы на вопросы о дизайне, сроках и сотрудничестве.</p><a class="v2-question-link" href="<?php echo esc_url( orma_url('contacts') ); ?>">Задать вопрос ↗</a></div><div class="v2-faq-list">
+<section class="v2-faq"><div><h2>Часто<br> задаваемые<br> вопросы</h2><p class="v2-muted">Ответы на вопросы о дизайне, сроках и сотрудничестве.</p></div><div class="v2-faq-list">
 <details class="orma-faq" data-node="11:336" open><summary>Чем дизайн сайта отличается от дизайна магазина?<span class="orma-faq-icon" aria-hidden="true"><img class="orma-faq-up" alt="" src="<?php echo esc_url(get_theme_file_uri('/assets/media/home-imgChevronUp.svg')); ?>"><img class="orma-faq-down" alt="" src="<?php echo esc_url(get_theme_file_uri('/assets/media/home-imgChevronDown.svg')); ?>"></span></summary><p class="orma-faq-answer">Сайт помогает рассказать о компании, услугах или показать портфолио. Для магазина дополнительно продумываю каталог, выбор товара, корзину и оформление заказа.</p></details>
 <details class="orma-faq" data-node="11:342"><summary>Можно ли обновить существующий сайт?<span class="orma-faq-icon" aria-hidden="true"><img class="orma-faq-up" alt="" src="<?php echo esc_url(get_theme_file_uri('/assets/media/home-imgChevronUp.svg')); ?>"><img class="orma-faq-down" alt="" src="<?php echo esc_url(get_theme_file_uri('/assets/media/home-imgChevronDown.svg')); ?>"></span></summary><p class="orma-faq-answer">Да. Можно сохранить привычную структуру сайта и обновить отдельные страницы или спроектировать сайт заново.</p></details>
 <details class="orma-faq" data-node="11:347"><summary>Что я получу в результате?<span class="orma-faq-icon" aria-hidden="true"><img class="orma-faq-up" alt="" src="<?php echo esc_url(get_theme_file_uri('/assets/media/home-imgChevronUp.svg')); ?>"><img class="orma-faq-down" alt="" src="<?php echo esc_url(get_theme_file_uri('/assets/media/home-imgChevronDown.svg')); ?>"></span></summary><p class="orma-faq-answer">Вы получите макеты в Figma, адаптивные версии и материалы для передачи разработчику.</p></details>
@@ -75,13 +75,16 @@ if ($recent_posts) : foreach ($recent_posts as $article) :
 $categories = get_the_category($article->ID);
 ?>
 <article><a class="v2-article-cover" href="<?php echo esc_url(get_permalink($article)); ?>" aria-label="<?php echo esc_attr(get_the_title($article)); ?>"><?php if ( has_post_thumbnail($article) ) { echo get_the_post_thumbnail($article, 'large', array('loading'=>'lazy')); } else { ?><img src="<?php echo esc_url(get_theme_file_uri('/assets/media/pricing-img.png')); ?>" alt="" loading="lazy"><?php } ?></a><span class="v2-tag"><?php echo esc_html($categories ? $categories[0]->name : 'Дизайн'); ?></span><h3><a href="<?php echo esc_url(get_permalink($article)); ?>"><?php echo esc_html(get_the_title($article)); ?></a></h3><p><?php echo esc_html(wp_trim_words(get_the_excerpt($article),18)); ?></p><a class="v2-read" href="<?php echo esc_url(get_permalink($article)); ?>">Читать статью ↗</a></article>
-<?php endforeach; else : foreach (array(
+<?php endforeach; endif;
+$demo_articles = array(
 array('UX/UI','Почему прототипы упрощают работу','Начинаем со структуры, прежде чем переходить к визуальным деталям.'),
 array('WordPress','Авторская тема или конструктор?','Как выбрать подход, который соответствует контенту и задачам проекта.'),
 array('WordPress','Как упростить управление контентом','Практический взгляд на гибкие блоки и повседневное редактирование сайта.')
-) as $article) : ?>
+);
+// Keep the three-card layout even when WordPress has only one or two posts.
+foreach (array_slice($demo_articles, count($recent_posts)) as $article) : ?>
 <article><a class="v2-article-cover" href="<?php echo esc_url(orma_url('article')); ?>" aria-label="<?php echo esc_attr($article[1]); ?>"><img src="<?php echo esc_url(get_theme_file_uri('/assets/media/pricing-img.png')); ?>" alt="" loading="lazy"></a><span class="v2-tag"><?php echo esc_html($article[0]); ?></span><h3><a href="<?php echo esc_url(orma_url('article')); ?>"><?php echo esc_html($article[1]); ?></a></h3><p><?php echo esc_html($article[2]); ?></p><a class="v2-read" href="<?php echo esc_url(orma_url('article')); ?>">Читать статью ↗</a></article>
-<?php endforeach; endif; ?>
+<?php endforeach; ?>
 </div></section>
 <section class="v2-cta"><div><h2>Давайте обсудим<br>ваш проект</h2></div><div><a class="v2-button" href="<?php echo esc_url(orma_url('contacts')); ?>">Обсудить проект ↗</a><p>Расскажите об идее —<br>найдём подходящее решение.</p></div></section>
 </main>

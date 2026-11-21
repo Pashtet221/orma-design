@@ -48,7 +48,7 @@
 .orma-home-v2 .v2-process li::before{content:none}
 .orma-home-v2 .v2-process li h3{font-size:27px;margin-bottom:20px}.orma-home-v2 .v2-process li p{color:#55565a;font-size:16px}
 .orma-home-v2 .v2-faq{display:grid;grid-template-columns:390px 1fr;gap:100px;padding:90px 72px 110px}
-.orma-home-v2 .v2-faq h2{font-size:48px}.orma-home-v2 .v2-faq .v2-muted{margin-top:25px;max-width:310px}.orma-home-v2 .v2-question-link{display:inline-block;margin-top:26px;font-size:14px;color:#c0c1cc}
+.orma-home-v2 .v2-faq h2{font-size:48px}.orma-home-v2 .v2-faq .v2-muted{margin-top:25px;max-width:310px}
 .orma-home-v2 .orma-faq{width:100%;height:auto;border-top:1px solid #ffffff18;padding:24px 0;font-size:17px}
 .orma-home-v2 .orma-faq summary{font-size:17px;line-height:1.5;font-weight:400;align-items:center}.orma-home-v2 .orma-faq-answer{font-size:16px!important;color:#96969b;margin:20px 0 0!important}
 .orma-home-v2 .v2-journal{padding:45px 80px 85px}.orma-home-v2 .v2-journal>h2{margin-bottom:38px}
@@ -104,7 +104,7 @@
 .orma-home-v2 .v2-process li h3{margin:0 0 10px}
 .orma-home-v2 .v2-process li p{max-width:440px}
 .orma-home-v2 .v2-faq{grid-template-columns:390px 1fr;gap:100px;padding-top:90px;padding-bottom:95px}
-.orma-home-v2 .v2-question-link{margin-top:20px}
+
 .orma-home-v2 .orma-faq .orma-faq-icon::before{width:7px;transform:rotate(45deg);left:3px}
 .orma-home-v2 .orma-faq .orma-faq-icon::after{width:7px;transform:rotate(-45deg);left:8px}
 .orma-home-v2 .orma-faq[open] .orma-faq-icon::before{transform:rotate(-45deg)}
@@ -137,4 +137,16 @@
 .orma-home-v2 .v2-process,.orma-home-v2 .v2-faq{grid-template-columns:1fr}.orma-home-v2 .v2-about h2{font-size:34px;margin-top:35px}.orma-home-v2 .v2-process-link{margin-top:30px}.orma-home-v2 .v2-process li{min-height:170px;padding-left:68px}
 .orma-home-v2 .v2-cta{border-radius:0 0 28px 28px;padding:40px 22px}.orma-home-v2 .v2-cta h2{margin:0 0 28px}
 .orma-home-v2 .v2-footer-grid{grid-template-columns:1fr 1fr;gap:38px 25px}.orma-home-v2 .v2-footer-brand{grid-column:1/-1}.orma-home-v2 .v2-footer-grid nav:last-child{grid-column:1/-1}.orma-home-v2 .v2-footer-grid nav{gap:15px}.orma-home-v2 .v2-footer-bottom{margin-top:45px}
+}
+
+/* Portfolio typography follows the refined 1440px reference. */
+.orma-home-v2 .orma-portfolio-tab>p:first-of-type{font-size:clamp(14px,1.667vw,24px);font-weight:600;line-height:1.2;top:32px;left:32px;height:auto;width:auto}
+.orma-home-v2 .orma-portfolio-side{font-size:clamp(16px,2.08vw,30px);font-weight:600;line-height:1.2;left:40px;bottom:44px}
+.orma-home-v2 .orma-portfolio-title{font-size:clamp(22px,2.64vw,38px);font-weight:600;line-height:1.2;bottom:70px}
+.orma-home-v2 .orma-portfolio-description{font-size:clamp(12px,1.11vw,16px);line-height:1.4;bottom:38px}
+@media(max-width:600px){
+.orma-home-v2 .orma-portfolio-tab>p:first-of-type{top:16px;left:7px;font-size:12px}
+.orma-home-v2 .orma-portfolio-side{left:7px;bottom:18px;font-size:14px}
+.orma-home-v2 .orma-portfolio-title{left:12px;bottom:52px;font-size:22px}
+.orma-home-v2 .orma-portfolio-description{left:12px;bottom:24px;font-size:10px}
 }
