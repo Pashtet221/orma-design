@@ -13,12 +13,12 @@
 <a class="v2-button" href="<?php echo esc_url( orma_url('contacts') ); ?>">Обсудим проект ↗</a>
 </header>
 <div class="v2-intro">
-<h1>Дизайн для людей.<br>Решения для бизнеса.</h1>
+<h1><span class="v2-mobile-title-line">Дизайн</span> <span class="v2-mobile-title-line">для людей.</span><br class="v2-desktop-break"><span class="v2-mobile-title-line">Решения для</span> <span class="v2-mobile-title-line">бизнеса.</span></h1>
 <p>Я Елена, UI/UX-дизайнер. Проектирую сайты и приложения,<br class="v2-desktop-break"> которыми удобно пользоваться и легко управлять.</p>
 <div class="v2-actions"><a class="v2-button" href="<?php echo esc_url( orma_url('contacts') ); ?>">Обсудить проект ↗</a><a class="v2-button v2-button-outline" href="<?php echo esc_url( orma_url('works') ); ?>">Смотреть работы</a></div></div>
 </section>
 <main>
-<section class="v2-projects v2-panel" aria-label="Избранные работы"><div class="v2-projects-heading"><h2>Проекты, в которых<br>дизайн решает задачу</h2><p>Примеры визуальных концепций для сайтов, магазинов и сервисов.</p></div>
+<section class="v2-projects v2-panel" aria-label="Избранные работы"><div class="v2-projects-heading"><p class="v2-mobile-eyebrow">ИЗБРАННЫЕ ПРОЕКТЫ</p><h2>Проекты, в которых<br>дизайн решает задачу</h2><p>Примеры визуальных концепций для сайтов, магазинов и сервисов.</p></div>
     <div class="orma-portfolio">
     <button class="orma-layout-252 orma-positioned orma-width orma-height orma-portfolio-tab" data-node="11:406" aria-label="Orbit" type="button" aria-pressed="false"><img class="orma-portfolio-image" alt="" loading="lazy" src="<?php echo esc_url( get_theme_file_uri( "/assets/media/home-imgHeroMinimalTypography.png" ) ); ?>">
       <p class="orma-layout-253 orma-positioned orma-width orma-height" data-node="11:408">01</p>
@@ -43,7 +43,7 @@
     </button>
     </div>
 </section>
-<section class="v2-services"><div class="v2-services-heading"><h2>От идеи до<br>готового интерфейса.</h2><p class="v2-muted">Проектирую сайты и интерфейсы, в которых эстетика сочетается с логикой и удобством.</p></div><div class="v2-service-list">
+<section class="v2-services"><div class="v2-services-heading"><p class="v2-mobile-eyebrow">УСЛУГИ</p><h2>От идеи до<br>готового интерфейса.</h2><p class="v2-muted">Проектирую сайты и интерфейсы, в которых эстетика сочетается с логикой и удобством.</p></div><div class="v2-service-list">
 <?php $services = array(
  array('service','Дизайн сайтов','Лендинги, корпоративные сайты, портфолио и многостраничные проекты.'),
  array('shop-design','Дизайн интернет-магазинов','Каталог, карточки товаров, корзина и оформление заказа.'),
@@ -60,7 +60,7 @@ array('Структура и прототип','Продумываю струк�
 array('Визуальный дизайн','Подбираю цвета, шрифты и стиль. Согласовываем дизайн и детали.','m5 15 10-10 4 4L9 19l-5 1 1-5Z M13 7l4 4 M4 22h16'),
 array('Передача макетов','Подготавливаю файл Figma: компоненты, состояния и материалы для разработки.','M12 3v12 m-4-4 4 4 4-4 M5 16v5h14v-5')
 ); foreach ($steps as $step) : ?><li><span class="v2-step-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"><path d="<?php echo esc_attr($step[2]); ?>"/></svg></span><h3><?php echo esc_html($step[0]); ?></h3><p><?php echo esc_html($step[1]); ?></p></li><?php endforeach; ?>
-</ol></section>
+</ol><a class="v2-button v2-button-dark v2-mobile-process-cta" href="<?php echo esc_url(orma_url('contacts')); ?>">Обсудить проект</a></section>
 <section class="v2-faq"><div><h2>Часто<br> задаваемые<br> вопросы</h2><p class="v2-muted">Ответы на вопросы о дизайне, сроках и сотрудничестве.</p></div><div class="v2-faq-list">
 <details class="orma-faq" data-node="11:336" open><summary>Чем дизайн сайта отличается от дизайна магазина?<span class="orma-faq-icon" aria-hidden="true"><img class="orma-faq-up" alt="" src="<?php echo esc_url(get_theme_file_uri('/assets/media/home-imgChevronUp.svg')); ?>"><img class="orma-faq-down" alt="" src="<?php echo esc_url(get_theme_file_uri('/assets/media/home-imgChevronDown.svg')); ?>"></span></summary><p class="orma-faq-answer">Сайт помогает рассказать о компании, услугах или показать портфолио. Для магазина дополнительно продумываю каталог, выбор товара, корзину и оформление заказа.</p></details>
 <details class="orma-faq" data-node="11:342"><summary>Можно ли обновить существующий сайт?<span class="orma-faq-icon" aria-hidden="true"><img class="orma-faq-up" alt="" src="<?php echo esc_url(get_theme_file_uri('/assets/media/home-imgChevronUp.svg')); ?>"><img class="orma-faq-down" alt="" src="<?php echo esc_url(get_theme_file_uri('/assets/media/home-imgChevronDown.svg')); ?>"></span></summary><p class="orma-faq-answer">Да. Можно сохранить привычную структуру сайта и обновить отдельные страницы или спроектировать сайт заново.</p></details>
@@ -68,7 +68,7 @@ array('Передача макетов','Подготавливаю файл Fig
 <details class="orma-faq" data-node="11:352"><summary>Сколько стоит дизайн и сколько времени он занимает?<span class="orma-faq-icon" aria-hidden="true"><img class="orma-faq-up" alt="" src="<?php echo esc_url(get_theme_file_uri('/assets/media/home-imgChevronUp.svg')); ?>"><img class="orma-faq-down" alt="" src="<?php echo esc_url(get_theme_file_uri('/assets/media/home-imgChevronDown.svg')); ?>"></span></summary><p class="orma-faq-answer">Стоимость и сроки зависят от объёма проекта. После обсуждения задачи я предложу подходящий формат работы.</p></details>
 <details class="orma-faq"><summary>Как проходит согласование и внесение правок?<span class="orma-faq-icon" aria-hidden="true"></span></summary><p class="orma-faq-answer">Показываю решения по этапам, собираю ваши комментарии и вношу согласованные изменения перед переходом к следующему этапу.</p></details>
 <details class="orma-faq" data-node="11:357"><summary>Как начать работу?<span class="orma-faq-icon" aria-hidden="true"><img class="orma-faq-up" alt="" src="<?php echo esc_url(get_theme_file_uri('/assets/media/home-imgChevronUp.svg')); ?>"><img class="orma-faq-down" alt="" src="<?php echo esc_url(get_theme_file_uri('/assets/media/home-imgChevronDown.svg')); ?>"></span></summary><p class="orma-faq-answer">Напишите мне о задаче через форму на странице контактов или в мессенджере.</p></details></div></section>
-<section class="v2-journal"><h2>Читайте также</h2><div class="v2-articles">
+<section class="v2-journal"><h2>Читайте также</h2><p class="v2-mobile-journal-note">Материалы о дизайне, интерфейсах и визуальных решениях.</p><div class="v2-articles">
 <?php
 $recent_posts = get_posts(array('numberposts'=>3,'post_status'=>'publish'));
 if ($recent_posts) : foreach ($recent_posts as $article) :

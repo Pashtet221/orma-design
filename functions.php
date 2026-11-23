@@ -14,7 +14,7 @@ function orma_assets() {
 	$version = wp_get_theme()->get( 'Version' );
 	wp_enqueue_style( 'orma-layout', get_theme_file_uri( '/assets/layout.css' ), array(), $version );
 	wp_enqueue_style( 'orma', get_theme_file_uri( '/assets/theme.css' ), array( 'orma-layout' ), $version );
-	wp_enqueue_script( 'orma', get_theme_file_uri( '/assets/theme.js' ), array(), $version, true );
+	wp_enqueue_script( 'orma', get_theme_file_uri( '/assets/theme.js' ), array(), (string) filemtime( get_theme_file_path( '/assets/theme.js' ) ), true );
 	$is_services = is_page( 'services' ) || is_page_template( 'page-templates/services.php' );
 	if ( is_front_page() || is_home() || $is_services ) {
 		wp_enqueue_style( 'orma-home', get_theme_file_uri( '/assets/home.css' ), array( 'orma' ), (string) filemtime( get_theme_file_path( '/assets/home.css' ) ) );
