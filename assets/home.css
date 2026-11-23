@@ -271,3 +271,25 @@
 .orma-home .v2-process li h3::before{margin-right:7px}
 }
 @media(max-width:600px){.orma-home .v2-intro h1{max-width:none}.orma-home .v2-mobile-title-line{display:block}}
+/* Mobile 390 / Refined V2 7: one full project card, compact FAQ and footer. */
+@media(max-width:600px){
+.orma-home .orma-portfolio .orma-portfolio-tab[aria-pressed]{flex-basis:100%}
+.orma-home .orma-portfolio::after{display:none}
+.orma-home .orma-portfolio .orma-portfolio-image{height:216px}
+.orma-home .orma-portfolio{height:300px}
+.orma-home .orma-portfolio .orma-portfolio-tab[aria-pressed]{height:300px}
+.orma-home .orma-portfolio .orma-portfolio-tab .orma-portfolio-title{top:232px}
+.orma-home .orma-portfolio .orma-portfolio-tab .orma-portfolio-description{top:266px}
+.orma-home .v2-projects{padding-bottom:46px}
+.orma-home .v2-faq .orma-faq-icon::before{left:4px;top:8px;width:10px;transform:none}
+.orma-home .v2-faq .orma-faq-icon::after{left:4px;top:8px;width:10px;transform:rotate(90deg)}
+.orma-home .v2-faq .orma-faq[open] .orma-faq-icon::after{transform:rotate(0)}
+.orma-home .v2-footer-brand{order:1}
+.orma-home .v2-footer-grid nav:nth-child(2){order:3}
+.orma-home .v2-footer-grid nav:nth-child(3){order:2}
+.orma-home .v2-footer-grid nav:last-child{order:4}
+.orma-home .v2-footer .v2-logo::after{content:'®';font-size:16px;align-self:flex-start;margin-left:-4px;margin-top:3px}
+.orma-home .v2-about>img{border-radius:42px 42px 30px 30px}
+.orma-home .v2-footer-bottom p{line-height:1.5;max-width:180px}
+}
+@media(max-width:600px){.orma-home .v2-faq .orma-faq[open] .orma-faq-icon::before{transform:none}}
